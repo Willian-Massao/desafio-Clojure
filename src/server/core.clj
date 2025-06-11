@@ -2,7 +2,8 @@
   (:require 
    [io.pedestal.http :as http]
    [io.pedestal.http.route :as route]
-   [routes.core :refer [routes]])
+   [routes.core :refer [routes]]
+   [datomic.core :as my-db])
   (:gen-class))
 
 (def service 
