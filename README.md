@@ -72,7 +72,7 @@ A API será inicializada em: `http://localhost:3000/`.
 
 ## 🧠 Notas técnicas
 
-- Utilizamos `:entidade/uid` com `:db.unique/identity` para garantir uma chave fixa no banco.
+- Utilizei `:entidade/uid` com `:db.unique/identity` para garantir uma chave fixa no banco.
 - A transação `create-if-not-exists` impede duplicação de entidades.
 - Todos os handlers tratam exceções e garantem respostas adequadas (`200` ou `500`).
 
